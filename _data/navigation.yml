@@ -1,5 +1,6 @@
-- name: Pricing
-  link: /pricing/
+- name: Pricings
+  link: https://omnicstech.github.io/products/
+  # link: /pricings/
   new_window: false
   highlight: false
 - name: Blog
