@@ -1,4 +1,4 @@
-- name: Pricings
+- name: products
   link: https://omnicstech.github.io/products/
   # link: /pricings/
   new_window: false
