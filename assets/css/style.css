@@ -350,8 +350,8 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 80%;
-  height: 80vh;
+  width: 80%; /*80%*/
+  height: 625px; /*80vh*/
 
   background-color: rgba(0, 0, 0, 0.8);
   overflow: hidden;
@@ -361,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
   /* New Added */
   /* margin-left: 0; */
   top: 0;
-  left: 10%;
+  left: 10%; /*10%*/
   right: 10%;
   bottom: 0;
 
@@ -374,17 +374,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
-  background-size: cover;
+  background-size: 100% 100%; /*cover*/
   background-position: center;
   background-repeat: no-repeat;
 
   /* New Added  */
-  /* position: relative; */
+  /*position: relative; 
   margin: auto;
-  /* padding-top: 1.5rem;
+  padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   padding-left: 2rem;
-  padding-right: 2rem; */
+  padding-right: 2rem;*/ 
   /* New Added  */
 
 
@@ -405,19 +405,19 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
 
   /* New Added  */
-  /* position: relative; */
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  /*position: relative;*/
+  padding-top: 1.5rem; /*1.5rem;*/
+  padding-bottom: 1.5rem; /*1.5rem;*/
+  padding-left: 2rem; /*2rem;*/
+  padding-right: 2rem; /*2rem;*/
   margin: auto;
   /* New Added  */
 
   /* bottom: 60px; */
-  bottom: 20px;
-  top: 70px;
-  left: 55px;
-  right: 55px;
+  bottom: 20px; /*20px*/
+  top: 70px; /*70px*/
+  left: 55px; /*55px*/
+  right: 55px; /*55px*/
 }
 
 #hero .carousel-content {
