@@ -1,2 +1,0 @@
-# Website
-Birolab second website
