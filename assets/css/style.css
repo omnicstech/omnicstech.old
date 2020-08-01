@@ -2292,7 +2292,7 @@ section {
 /*hang hu add*/
 .intro_left{
   float:left;
-  width:50%;
+  width:40%;
 }
 .photo_right{
   float:right;
@@ -2301,7 +2301,7 @@ section {
 
 .intro_right{
   float:right;
-  width:50%;
+  width:48%;
 }
 .photo_left{
   float:left;
