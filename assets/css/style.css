@@ -1528,7 +1528,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
-  margin-top: 5px;
+  margin-top: 0px;/*original 5px*/ /*控制dot到图片的距离*/
   text-align: left;
 }
 
